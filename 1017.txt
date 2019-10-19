@@ -1,0 +1,11 @@
+VEGAS 플러그인의 옵션
+
+preload: true(시작할 때 이미지와 동영상을 모두 미리 가져옵니다..) false
+preloadimage: true (시작할 때 이미지를 미리 가져옵니다.) 디펄트 값은 false
+preloadVideo: True(시작할 때 비디오를 미리 가져옵니다.) 디펄트 값은 false
+
+
+
+930, 747
+
+700.747

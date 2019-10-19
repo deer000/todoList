@@ -99,6 +99,13 @@ btn4.addEventListener("mouseout", () => {
 
 function scrollFunction() {
     if (document.documentElement.scrollTop > 30) {
+        navColor.addEventListener("mouseover", () => {
+            navColor.style.background = "white";
+        });
+
+        navColor.addEventListener("mouseout", () => {
+            navColor.style.background = "none";
+        });
         navColor.style.background = "#fff";
     } else {
         navColor.style.background = "none";

@@ -1,0 +1,9 @@
+1018
+
+구글웹폰트 어도비 타입킷이라는 웹폰트도 존재
+
+어도비
+
+
+비디오를 풀스크린으로 처리할 때
+webaim.org/resources/contrastchecker
