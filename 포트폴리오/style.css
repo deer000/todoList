@@ -4,8 +4,9 @@
 }
 
 .section1 {
-    background: url("img1.jpg");
-    background-size: cover;
+    background: url("rain.jpg") no-repeat;
+    background-size: 30%;
+    background-position: center center;
 }
 
 .section2 {
