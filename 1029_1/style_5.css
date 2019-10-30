@@ -1,0 +1,34 @@
+@charset "UTF-8"
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%
+    height: auto;
+}
+
+.slide_box {
+    width: 900px;
+    height: 450px;
+    position: relative;
+    overflow:hidden;
+    margin: 0 auto;
+}
+
+.slide_box_1 {
+    width: 4500px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.slide_box_1 img {
+    width: 900px;
+    height: 450px;
+    float: left;
+}
