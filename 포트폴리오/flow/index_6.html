@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Flipster Demo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=550, initial-scale=1">
+
+    <link rel="stylesheet" href="../dist/jquery.flipster.min.css">
+
+    <script src="jquery.min.js"></script>
+    <script src="../dist/jquery.flipster.min.js"></script>
+</head>
+<body>
+    
+
+<article id="demo-carousel" class="demo">
+
+    <h2>Flipster Carousel</h2>
+
+    <div id="carousel">
+        <ul class="flip-items">
+            <li>
+                <a href="https://deer000.github.io/porcontent/kakao/index.html"><img src="img/text1.gif"></a>
+            </li>
+            <li>
+                <a href="https://deer000.github.io/porcontent/linefriends/index.html"><img src="img/text2.gif"></a>
+             </li>
+            <li>
+                <a href="https://deer000.github.io/porcontent/starnight/index.html"><img src="img/text3.gif"></a>
+            </li>
+            <li>
+                <a href="https://deer000.github.io/porcontent/alecto/index.html"><img src="img/text4.gif"></a>
+            </li>
+            <li>
+                <a href="https://deer000.github.io/porcontent/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A43/index.html"><img src="img/text5.gif"></a>
+            </li>
+            <li>
+                <a href=""><img src="img/text6.gif"></a>
+            </li>
+            <li>
+                <a href=""><img src="img/text7.gif"></a>
+            </li>
+            <li>
+                <a href=""><img src="img/text8.gif"></a>
+            </li>
+            <li>
+                <a href=""><img src="img/text9.gif"></a>
+            </li>
+            <li>
+                <img src="img/text10.gif">
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
+<script>
+    var carousel = $("#carousel").flipster({
+        style: 'carousel',
+        spacing: -0.5,
+        nav: true,
+        buttons:   true,
+    });
+</script>
+
+</article>

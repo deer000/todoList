@@ -1,0 +1,8 @@
+비주얼 코드 키고 프로젝트 시작할 때 git pull origin master 
+서로 수정사항 교환
+
+마무리 git add . 
+
+          git commit -m “First File”
+
+          git push origin master

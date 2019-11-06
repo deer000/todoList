@@ -1,0 +1,37 @@
+@meta charset "UTF-8"
+*{
+margin:0;
+padding:0;
+    box-sizing: border-box;
+}
+
+
+
+.wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.slider_box{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.slider_box_1 {
+    width: 4000px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.slider_box_1 img {
+    width: 800px;
+    height: 100%;
+    float:left;
+}

@@ -1,0 +1,48 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  width: 50%;
+  height: 400px;
+  margin: 100px auto;
+}
+
+.wrapper .btn_box {
+  width: 100%;
+  height: 50px;
+}
+
+.wrapper .btn_box .btn {
+  width: 20%;
+  height: 100%;
+  float: left;
+  border: none;
+  outline: none;
+  background: #eee;
+  font-size: 1.5rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.wrapper .btn_box .btn_1 {
+  background: #666;
+  color: #fff;
+}
+
+.wrapper .tap {
+  width: 100%;
+  height: 350px;
+  background: #eee;
+  display: none;
+  text-align: center;
+  padding: 100px;
+}
+
+.wrapper .tap_1 {
+  background: #666;
+  color: #fff;
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */

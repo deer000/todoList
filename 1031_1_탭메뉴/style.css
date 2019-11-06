@@ -1,0 +1,59 @@
+@charset "UTF-8"
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	height: auto;
+}
+
+.Tab_box  {
+	width: 600px;
+	height: 300px;
+	margin:  100px auto;
+}
+
+.btn {
+	width: 100%;
+	height: 200px;
+}
+
+.btn_1 {
+	width: 20%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	outline: none;
+	border: none;
+	background: #eee;
+}
+
+
+.btn_1:hover {
+	background: #222;
+	color: #ee3332;
+	cursor: pointer;
+}
+
+.bl {
+	width: 100%;
+	height: 600px;
+	display: none;
+	text-align: center;
+	padding : 100px;
+	background: #ddd;
+}
+
+.bl_1 {
+	display: block;
+	background: #ee3332;
+}
+
+.btn_2 {
+	background: #000;
+	color: #ddd;
+}

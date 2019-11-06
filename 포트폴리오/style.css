@@ -9,6 +9,10 @@
     background-position: center center;
 }
 
+.section1 h1 {
+    margin: 0 auto;
+}
+
 .section2 {
     background: url("img2.jpg");
     background-size: cover;
